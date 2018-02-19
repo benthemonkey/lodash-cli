@@ -14,6 +14,7 @@
     "Mathias Bynens <mathias@qiwi.be> (https://mathiasbynens.be/)"
   ],
   "repository": "lodash/lodash",
+  "sideEffects": false,
   "scripts": { "test": "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\"" }<%
   if (!_.isEmpty(dependencies)) {
     print(',\n  "dependencies": ' + JSON.stringify(dependencies, null, 4).replace(/}$/, '  $&'));
